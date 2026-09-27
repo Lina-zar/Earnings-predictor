@@ -4,7 +4,23 @@
 
 Large US companies beat consensus 79% of the time, so a beat is the default. This project looks at the quarters that don't beat, where the market reacts hardest: in 2018–2025, stocks fell **3.2%** relative to the S&P 500 in the two days after a miss, against **+0.6%** after a beat.
 
-The full project scope, hypotheses, success criteria and limitations are in **[CHARTER.md](CHARTER.md)**.
+The full project scope, hypotheses, success criteria and limitations are in **[CHARTER.md](CHARTER.md)**; every model input is defined in **[FEATURES.md](FEATURES.md)**.
+
+## First model result
+
+Walk-forward test, 2019–2025 (each year predicted using only earlier years), 4,750 reports:
+
+| Model | Brier score | Skill vs sector base rate | ROC AUC | Not-beat rate in riskiest 10% |
+|---|---|---|---|---|
+| Sector base rate (the bar to beat) | 0.1635 | — | 0.57 | 21% |
+| **Logistic regression** | **0.1513** | **+7.5%** | **0.71** | **46%** |
+| Gradient-boosted trees | 0.1556 | +4.8% | 0.69 | 45% |
+
+Logistic regression beats the sector base rate in **all 7** test years. The quarters it flags as riskiest fail to beat more than twice as often as average.
+
+![Model skill by year](reports/figures/model_v1_skill_by_year.png)
+![Risk deciles](reports/figures/model_v1_risk_deciles.png)
+![Signal by feature](reports/figures/signal_quintiles.png)
 
 ## Key findings so far
 
@@ -26,6 +42,7 @@ The full project scope, hypotheses, success criteria and limitations are in **[C
 | 4 | `load_db.py` + `sql/` | Loads everything into PostgreSQL, runs data-quality checks and the exploration queries |
 | 5 | `build_features.py` | Features from track record, estimates, prices and earnings season, with leakage tests |
 | 6 | `pull_sec.py`, `build_fundamentals.py` | SEC financial statements (first-filed values only) → fundamental features |
+| 7 | `train_model_v1.py` | Walk-forward baselines, logistic regression and gradient-boosted trees; results and charts in `reports/` |
 
 Every feature uses only information available before the report date; automated leakage tests check this on each run.
 
@@ -33,7 +50,7 @@ Every feature uses only information available before the report date; automated 
 
 ```bash
 python3 -m venv .venv && source .venv/bin/activate
-pip install yfinance pandas requests lxml "psycopg[binary]"
+pip install yfinance pandas requests lxml "psycopg[binary]" scikit-learn matplotlib
 export ALPHAVANTAGE_API_KEY=your_key
 export SEC_USER_AGENT="Your Name your@email.com"
 python build_universe.py
@@ -42,6 +59,7 @@ python load_db.py          # needs PostgreSQL running locally
 python build_features.py
 python pull_sec.py
 python build_fundamentals.py
+python train_model_v1.py
 ```
 
 Downloaded data is not stored in this repository; the scripts recreate it.
@@ -49,6 +67,6 @@ Downloaded data is not stored in this repository; the scripts recreate it.
 ## Status
 
 - [x] Part 1 — scope, data sources, database, exploration
-- [ ] Part 2 — feature engineering (in progress)
-- [ ] Part 3 — model and walk-forward evaluation
+- [x] Part 2 — feature engineering: 39 leakage-tested features ([FEATURES.md](FEATURES.md))
+- [ ] Part 3 — model and walk-forward evaluation (first version done; tuning and error analysis next)
 - [ ] Dashboard and final report

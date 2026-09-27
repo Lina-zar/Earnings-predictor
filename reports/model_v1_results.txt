@@ -1,0 +1,49 @@
+==============================================================================
+MODEL V1 - walk-forward 2019-2025, 4,750 test reports, not-beat share 21.1%
+==============================================================================
+
+model             Brier  skill vs sector  ROC AUC  PR AUC  top-decile not-beat
+base_overall     0.1669           -2.1%    0.462   0.200               22.0%
+base_sector      0.1635           +0.0%    0.572   0.236               20.7%
+logistic         0.1513           +7.5%    0.710   0.391               45.7%
+gbm              0.1556           +4.8%    0.685   0.363               45.3%
+
+Brier score by test year (lower is better):
+year    base_overall   base_sector      logistic           gbm
+2019          0.1852        0.1832        0.1813        0.1954
+2020          0.1717        0.1655        0.1533        0.1649
+2021          0.1321        0.1279        0.1170        0.1167
+2022          0.1921        0.1892        0.1692        0.1736
+2023          0.1537        0.1527        0.1360        0.1369
+2024          0.1693        0.1665        0.1535        0.1546
+2025          0.1654        0.1607        0.1506        0.1504
+logistic beats the sector baseline in 7 of 7 test years.
+gbm beats the sector baseline in 6 of 7 test years.
+
+Logistic regression - average standardised coefficient (+ = more likely NOT to beat):
+  -0.238  season_sector_n
+  -0.179  beat_rate_4q
+  -0.156  sector_information_technology
+  -0.152  beat_streak
+  -0.139  last_surprise_ps
+  -0.126  ret_60d_vs_spy
+  +0.092  op_margin
+  +0.102  report_gap_change_vs_ly
+  +0.120  sector_consumer_discretionary
+  +0.128  receivables_minus_sales_growth
+  +0.136  accruals_to_assets
+  +0.178  season_all_n
+
+Calibration (logistic): predicted vs actual not-beat rate by risk decile
+        predicted  actual    n
+decile                        
+1           0.050   0.042  475
+2           0.078   0.097  475
+3           0.100   0.099  475
+4           0.125   0.154  475
+5           0.149   0.171  475
+6           0.178   0.189  475
+7           0.214   0.238  475
+8           0.261   0.286  475
+9           0.341   0.377  475
+10          0.510   0.457  475
