@@ -1,0 +1,18 @@
+# Python environment and caches - never upload
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets (API keys) - never upload
+.env
+
+# Data: downloaded from Yahoo Finance, Alpha Vantage and the SEC.
+# Not uploaded (size, and the vendors' terms); the scripts recreate it.
+data/raw/
+data/processed/
+
+# Mac clutter
+.DS_Store
+
+# Files from a parallel session, kept locally only
+_archive/

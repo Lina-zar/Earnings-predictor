@@ -1,0 +1,191 @@
+ticker,company,sector,successor_ticker,confidence,note
+AAL,American Airlines,Industrials,,high,
+AAP,Advance Auto Parts,Consumer Discretionary,,high,
+ABC,AmerisourceBergen,Health Care,COR,high,renamed Cencora
+ABMD,Abiomed,Health Care,,high,
+ADS,Alliance Data Systems,Financials,,verify,IT before the March 2023 reshuffle; payments/data processing now Financials
+AET,Aetna,Health Care,,high,
+AGN,Allergan,Health Care,,high,
+AIV,Apartment Investment & Management,Real Estate,,high,
+ALK,Alaska Air,Industrials,,high,
+ALXN,Alexion,Health Care,,high,
+AMG,Affiliated Managers Group,Financials,,high,
+AMTM,Amentum,Industrials,,high,
+ANDV,Andeavor,Energy,,high,
+ANSS,Ansys,Information Technology,,high,acquired by Synopsys 2025
+ANTM,Anthem,Health Care,ELV,high,renamed Elevance
+APC,Anadarko,Energy,,high,
+ARNC,Arconic,Industrials,,verify,
+ATVI,Activision Blizzard,Communication Services,,high,acquired by Microsoft 2023
+AVB,AvalonBay,Real Estate,,high,
+AYI,Acuity Brands,Industrials,,high,
+BBT,BB&T,Financials,TFC,high,merged into Truist
+BBWI,Bath & Body Works,Consumer Discretionary,,high,
+BHF,Brighthouse Financial,Financials,,high,
+BHGE,Baker Hughes GE,Energy,BKR,high,
+BIO,Bio-Rad,Health Care,,high,
+BK,Bank of New York Mellon,Financials,,high,
+BLL,Ball Corp,Materials,BALL,high,
+BWA,BorgWarner,Consumer Discretionary,,high,
+CA,CA Inc,Information Technology,,high,acquired by Broadcom 2018
+CAG,Conagra,Consumer Staples,,high,
+CBS,CBS,Communication Services,PARA,high,Consumer Discretionary before Sept 2018; CBS acquired Viacom Dec 2019 and became ViacomCBS then Paramount
+CDAY,Ceridian,Industrials,DAY,verify,renamed Dayforce; check GICS sector
+CE,Celanese,Materials,,high,
+CELG,Celgene,Health Care,,high,
+CERN,Cerner,Health Care,,high,
+CHK,Chesapeake Energy,Energy,,high,
+CMA,Comerica,Financials,,high,
+COG,Cabot Oil & Gas,Energy,CTRA,high,
+COL,Rockwell Collins,Industrials,,high,
+COTY,Coty,Consumer Staples,,high,
+CPB,Campbell's,Consumer Staples,,high,
+CPRI,Capri Holdings,Consumer Discretionary,,high,
+CSRA,CSRA,Information Technology,,high,acquired by General Dynamics 2018
+CTL,CenturyLink,Communication Services,LUMN,high,renamed Lumen
+CTLT,Catalent,Health Care,,high,
+CTRA,Coterra,Energy,,high,
+CTXS,Citrix,Information Technology,,high,taken private 2022
+CXO,Concho Resources,Energy,,high,
+CZR,Caesars Entertainment,Consumer Discretionary,,high,
+DAY,Dayforce,Industrials,,verify,check GICS sector
+DFS,Discover Financial,Financials,,high,
+DISCA,Discovery (A),Communication Services,WBD,high,merged into Warner Bros. Discovery
+DISCK,Discovery (C),Communication Services,WBD,high,second share class of the same company
+DISH,Dish Network,Communication Services,,high,
+DRE,Duke Realty,Real Estate,,high,
+DWDP,DowDuPont,Materials,DD,high,
+DXC,DXC Technology,Information Technology,,high,
+EA,Electronic Arts,Communication Services,,high,
+EMN,Eastman Chemical,Materials,,high,
+ENPH,Enphase Energy,Information Technology,,high,
+EPAM,EPAM Systems,Information Technology,,high,
+EQR,Equity Residential,Real Estate,,high,
+ESRX,Express Scripts,Health Care,,high,
+ETFC,E*Trade,Financials,,high,
+ETSY,Etsy,Consumer Discretionary,,high,
+EVHC,Envision Healthcare,Health Care,,high,
+FB,Facebook,Communication Services,META,high,renamed Meta
+FBHS,Fortune Brands Home & Security,Industrials,FBIN,high,
+FI,Fiserv,Financials,,high,IT before the March 2023 reshuffle
+FL,Foot Locker,Consumer Discretionary,,high,
+FLIR,FLIR Systems,Information Technology,,high,acquired by Teledyne 2021
+FLR,Fluor,Industrials,,high,
+FLS,Flowserve,Industrials,,high,
+FLT,Fleetcor,Financials,CPAY,verify,IT before the March 2023 reshuffle; renamed Corpay
+FMC,FMC Corp,Materials,,high,
+FRC,First Republic Bank,Financials,,high,
+FTI,TechnipFMC,Energy,,high,
+GGP,GGP Inc,Real Estate,,high,
+GPS,Gap,Consumer Discretionary,,high,
+GT,Goodyear,Consumer Discretionary,,high,
+HBI,Hanesbrands,Consumer Discretionary,,high,
+HCP,HCP Inc,Real Estate,DOC,high,
+HES,Hess,Energy,,high,
+HFC,HollyFrontier,Energy,,high,
+HOG,Harley-Davidson,Consumer Discretionary,,high,
+HOLX,Hologic,Health Care,,high,
+HP,Helmerich & Payne,Energy,,high,
+HRB,H&R Block,Consumer Discretionary,,high,
+HRS,Harris Corp,Information Technology,LHX,verify,merged with L3 in 2019 to form L3Harris (Industrials)
+ILMN,Illumina,Health Care,,high,
+INFO,IHS Markit,Industrials,,high,
+IPG,Interpublic Group,Communication Services,,high,acquired by Omnicom 2025
+IPGP,IPG Photonics,Information Technology,,high,
+JEC,Jacobs Engineering,Industrials,J,high,
+JEF,Jefferies,Financials,,high,
+JNPR,Juniper Networks,Information Technology,,high,acquired by HPE 2025
+JWN,Nordstrom,Consumer Discretionary,,high,
+K,Kellanova,Consumer Staples,,high,
+KORS,Michael Kors,Consumer Discretionary,CPRI,high,renamed Capri Holdings
+KSS,Kohl's,Consumer Discretionary,,high,
+KMX,CarMax,Consumer Discretionary,,high,
+KSU,Kansas City Southern,Industrials,,high,
+LB,L Brands,Consumer Discretionary,BBWI,high,renamed Bath & Body Works
+LEG,Leggett & Platt,Consumer Discretionary,,high,
+LKQ,LKQ Corp,Consumer Discretionary,,high,
+LLL,L3 Technologies,Industrials,,high,
+LNC,Lincoln National,Financials,,high,
+LUMN,Lumen Technologies,Communication Services,,high,
+LW,Lamb Weston,Consumer Staples,,high,
+M,Macy's,Consumer Discretionary,,high,
+MAC,Macerich,Real Estate,,high,
+MAT,Mattel,Consumer Discretionary,,high,
+MHK,Mohawk Industries,Consumer Discretionary,,high,
+MKTX,MarketAxess,Financials,,high,
+MMC,Marsh & McLennan,Financials,,high,
+MOH,Molina Healthcare,Health Care,,high,
+MON,Monsanto,Materials,,high,
+MRO,Marathon Oil,Energy,,high,
+MTCH,Match Group,Communication Services,,high,
+MXIM,Maxim Integrated,Information Technology,,high,acquired by Analog Devices 2021
+MYL,Mylan,Health Care,VTRS,high,merged into Viatris
+NAVI,Navient,Financials,,high,
+NBL,Noble Energy,Energy,,high,
+NFX,Newfield Exploration,Energy,,high,
+NKTR,Nektar Therapeutics,Health Care,,high,
+NLOK,NortonLifeLock,Information Technology,GEN,high,renamed Gen Digital
+NLSN,Nielsen,Industrials,,high,
+NOV,NOV Inc,Energy,,high,
+NWL,Newell Brands,Consumer Discretionary,,high,
+OGN,Organon,Health Care,,high,
+PARA,Paramount Global,Communication Services,PSKY,high,merged with Skydance Aug 2025; Yahoo moved its history to PSKY (the PARA ticker now shows a different security)
+PAYC,Paycom,Industrials,,verify,check GICS sector
+PBCT,People's United Financial,Financials,,high,
+PDCO,Patterson Companies,Health Care,,high,
+PEAK,Healthpeak,Real Estate,DOC,high,
+PENN,Penn Entertainment,Consumer Discretionary,,high,
+PKI,PerkinElmer,Health Care,RVTY,high,renamed Revvity
+POOL,Pool Corp,Consumer Discretionary,,high,
+PRGO,Perrigo,Health Care,,high,
+PVH,PVH Corp,Consumer Discretionary,,high,
+PX,Praxair,Materials,,high,
+PXD,Pioneer Natural Resources,Energy,,high,
+QRVO,Qorvo,Information Technology,,high,
+RE,Everest Re,Financials,EG,high,
+RHI,Robert Half,Industrials,,high,
+RHT,Red Hat,Information Technology,,high,acquired by IBM 2019
+RRC,Range Resources,Energy,,high,
+RTN,Raytheon,Industrials,,high,
+SBNY,Signature Bank,Financials,,high,
+SCG,SCANA,Utilities,,high,
+SEDG,SolarEdge,Information Technology,,high,
+SEE,Sealed Air,Materials,,high,
+SIG,Signet Jewelers,Consumer Discretionary,,high,
+SIVB,SVB Financial,Financials,,high,
+SLG,SL Green Realty,Real Estate,,high,
+SNI,Scripps Networks Interactive,Communication Services,,verify,Consumer Discretionary before Sept 2018; acquired by Discovery March 2018
+SOLS,Solstice Advanced Materials,Materials,,high,
+SRCL,Stericycle,Industrials,,high,
+STI,SunTrust,Financials,TFC,high,merged into Truist
+SYMC,Symantec,Information Technology,GEN,high,renamed NortonLifeLock then Gen Digital
+TFX,Teleflex,Health Care,,high,
+TIF,Tiffany,Consumer Discretionary,,high,acquired by LVMH 2021
+TMK,Torchmark,Financials,GL,high,
+TRIP,TripAdvisor,Communication Services,,verify,Consumer Discretionary before Sept 2018
+TSS,Total System Services,Financials,,verify,IT when acquired by Global Payments 2019; payments now Financials
+TWTR,Twitter,Communication Services,,high,taken private 2022
+TWX,Time Warner,Communication Services,,high,acquired by AT&T 2018
+UA,Under Armour (C),Consumer Discretionary,UAA,high,second share class of the same company
+UAA,Under Armour (A),Consumer Discretionary,,high,
+UNM,Unum,Financials,,high,
+UTX,United Technologies,Industrials,RTX,high,
+VAR,Varian Medical,Health Care,,high,
+VFC,VF Corp,Consumer Discretionary,,high,
+VIAB,Viacom,Communication Services,,high,separate company until acquired by CBS in Dec 2019; not merged with PARA
+VIAC,ViacomCBS,Communication Services,PARA,high,renamed Paramount Global
+VNO,Vornado,Real Estate,,high,
+VNT,Vontier,Information Technology,,verify,check GICS sector
+WBA,Walgreens Boots Alliance,Consumer Staples,,high,taken private 2025
+WCG,WellCare,Health Care,,high,
+WHR,Whirlpool,Consumer Discretionary,,high,
+WLTW,Willis Towers Watson,Financials,WTW,high,
+WRK,WestRock,Materials,,high,
+WU,Western Union,Financials,,high,IT before the March 2023 reshuffle
+WYND,Wyndham Worldwide,Consumer Discretionary,,verify,renamed Wyndham Destinations then Travel + Leisure (TNL)
+XEC,Cimarex Energy,Energy,,high,
+XL,XL Group,Financials,,high,
+XLNX,Xilinx,Information Technology,,high,acquired by AMD 2022
+XRAY,Dentsply Sirona,Health Care,,high,
+XRX,Xerox,Information Technology,,high,
+ZION,Zions Bancorp,Financials,,high,

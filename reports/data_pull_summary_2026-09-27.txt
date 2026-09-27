@@ -1,0 +1,295 @@
+Pulling data for 231 companies - started 13:04
+[1/231] APP
+[2/231] ATVI
+[3/231] CHTR
+[4/231] CMCSA
+[5/231] DIS
+[6/231] DISH
+[7/231] EA
+[8/231] FOXA
+[9/231] GOOGL
+[10/231] IPG
+[11/231] LUMN
+[12/231] LYV
+[13/231] META
+[14/231] MTCH
+[15/231] NFLX
+[16/231] NWSA
+[17/231] OMC
+[18/231] PSKY
+[19/231] SNI
+[20/231] T
+[21/231] TKO
+[22/231] TMUS
+[23/231] TRIP
+[24/231] TTD
+[25/231] TTWO
+[26/231] TWTR
+[27/231] TWX
+[28/231] VIAB
+[29/231] VZ
+[30/231] WBD
+[31/231] AAP
+[32/231] ABNB
+[33/231] AMZN
+[34/231] APTV
+[35/231] AZO
+[36/231] BBWI
+[37/231] BBY
+[38/231] BKNG
+[39/231] BWA
+[40/231] CCL
+[41/231] CMG
+[42/231] CPRI
+[43/231] CVNA
+[44/231] CZR
+[45/231] DASH
+[46/231] DECK
+[47/231] DHI
+[48/231] DPZ
+[49/231] DRI
+[50/231] EBAY
+[51/231] ETSY
+[52/231] EXPE
+[53/231] F
+[54/231] FL
+[55/231] GM
+[56/231] GPC
+[57/231] GPS
+[58/231] GRMN
+[59/231] GT
+[60/231] HAS
+[61/231] HBI
+[62/231] HD
+[63/231] HLT
+[64/231] HOG
+[65/231] HRB
+[66/231] JWN
+[67/231] KMX
+[68/231] KSS
+[69/231] LEG
+[70/231] LEN
+[71/231] LKQ
+[72/231] LOW
+[73/231] LULU
+[74/231] LVS
+[75/231] M
+[76/231] MAR
+[77/231] MAT
+[78/231] MCD
+[79/231] MGM
+[80/231] MHK
+[81/231] NCLH
+[82/231] NKE
+[83/231] NVR
+[84/231] NWL
+[85/231] ORLY
+[86/231] PENN
+[87/231] PHM
+[88/231] POOL
+[89/231] PVH
+[90/231] RCL
+[91/231] RL
+[92/231] ROST
+[93/231] SBUX
+[94/231] SIG
+[95/231] TIF
+[96/231] TJX
+[97/231] TPR
+[98/231] TSCO
+[99/231] TSLA
+[100/231] UAA
+[101/231] ULTA
+[102/231] VFC
+[103/231] WHR
+[104/231] WSM
+[105/231] WYND
+[106/231] WYNN
+[107/231] YUM
+[108/231] ADM
+[109/231] BF.B
+[110/231] BG
+[111/231] CAG
+[112/231] CHD
+[113/231] CL
+[114/231] CLX
+[115/231] COST
+[116/231] COTY
+[117/231] CPB
+[118/231] DG
+[119/231] DLTR
+[120/231] EL
+[121/231] GIS
+[122/231] HRL
+[123/231] HSY
+[124/231] K
+[125/231] KDP
+[126/231] KHC
+[127/231] KMB
+[128/231] KO
+[129/231] KR
+[130/231] KVUE
+[131/231] LW
+[132/231] MDLZ
+[133/231] MKC
+[134/231] MNST
+[135/231] MO
+[136/231] PEP
+[137/231] PG
+[138/231] PM
+[139/231] SJM
+[140/231] STZ
+[141/231] SYY
+[142/231] TAP
+[143/231] TGT
+[144/231] TSN
+[145/231] WBA
+[146/231] WMT
+[147/231] AAPL
+[148/231] ACN
+[149/231] ADBE
+[150/231] ADI
+[151/231] ADSK
+[152/231] AKAM
+[153/231] AMAT
+[154/231] AMD
+[155/231] ANET
+[156/231] ANSS
+[157/231] APH
+[158/231] AVGO
+[159/231] CA
+[160/231] CDNS
+[161/231] CDW
+[162/231] CRM
+[163/231] CRWD
+[164/231] CSCO
+[165/231] CSRA
+[166/231] CTSH
+[167/231] CTXS
+[168/231] DDOG
+[169/231] DELL
+[170/231] DXC
+[171/231] ENPH
+[172/231] EPAM
+[173/231] FFIV
+[174/231] FICO
+[175/231] FLIR
+[176/231] FSLR
+[177/231] FTNT
+[178/231] GDDY
+[179/231] GEN
+[180/231] GLW
+[181/231] HPE
+[182/231] HPQ
+[183/231] IBM
+[184/231] INTC
+[185/231] INTU
+[186/231] IPGP
+[187/231] IT
+[188/231] JBL
+[189/231] JNPR
+[190/231] KEYS
+[191/231] KLAC
+[192/231] LRCX
+[193/231] MCHP
+[194/231] MPWR
+[195/231] MSFT
+[196/231] MSI
+[197/231] MU
+[198/231] MXIM
+[199/231] NOW
+[200/231] NTAP
+[201/231] NVDA
+[202/231] NXPI
+[203/231] ON
+[204/231] ORCL
+[205/231] PANW
+[206/231] PLTR
+[207/231] PTC
+[208/231] Q
+[209/231] QCOM
+[210/231] QRVO
+[211/231] RHT
+[212/231] ROP
+[213/231] SEDG
+[214/231] SMCI
+[215/231] SNDK
+[216/231] SNPS
+[217/231] STX
+[218/231] SWKS
+[219/231] TDY
+[220/231] TEL
+[221/231] TER
+[222/231] TRMB
+[223/231] TXN
+[224/231] TYL
+[225/231] VNT
+[226/231] VRSN
+[227/231] WDAY
+[228/231] WDC
+[229/231] XLNX
+[230/231] XRX
+[231/231] ZBRA
+benchmark SPY
+benchmark XLK
+benchmark XLY
+benchmark XLP
+benchmark XLC
+checking report dates against SEC 8-K filings ...
+
+==============================================================================
+DATA PULL SUMMARY  (2026-09-27)
+==============================================================================
+
+1. COVERAGE  213 of 231 companies have usable earnings data in the window
+   Quarters in the universe with estimate + actual: 5380 of ~5603 expected (96%)
+has_data            no data  has data
+status                               
+current member            2       165
+left after 2025           1         6
+left during window       15        42
+
+   No data for 16 companies (~203 quarters, 4% of the universe) - this is the survivorship gap for the charter:
+     EA     Communication Services left after 2025      ~32 qtrs  (earnings table has no reported quarters)
+     ATVI   Communication Services left during window   ~23 qtrs  (no earnings dates returned)
+     DISH   Communication Services left during window   ~22 qtrs  (no earnings dates returned)
+     SNI    Communication Services left during window   ~1 qtrs  (no earnings dates returned)
+     TWTR   Communication Services left during window   ~18 qtrs  (no earnings dates returned)
+     TWX    Communication Services left during window   ~2 qtrs  (no earnings dates returned)
+     VIAB   Communication Services left during window   ~8 qtrs  (no earnings dates returned)
+     LEG    Consumer Discretionary left during window   ~16 qtrs  (earnings table has no reported quarters)
+     TIF    Consumer Discretionary left during window   ~12 qtrs  (no earnings dates returned)
+     CA     Information Technology left during window   ~3 qtrs  (no earnings dates returned)
+     CSRA   Information Technology left during window   ~1 qtrs  (no earnings dates returned)
+     CTXS   Information Technology left during window   ~19 qtrs  (no earnings dates returned)
+     FLIR   Information Technology left during window   ~13 qtrs  (no earnings dates returned)
+     MXIM   Information Technology left during window   ~11 qtrs  (no earnings dates returned)
+     RHT    Information Technology left during window   ~6 qtrs  (no earnings dates returned)
+     XLNX   Information Technology left during window   ~16 qtrs  (no earnings dates returned)
+
+   Partial coverage (<80% of expected quarters): 1 companies
+     UAA    14/18
+
+   Earnings but no prices: IPG, FL, HBI, JWN, K, WBA, ANSS, JNPR
+
+2. BEAT RATE SANITY CHECK  (expect roughly mid-70s to 80s %; far lower suggests GAAP mixed in)
+year                    2018  2019  2020  2021  2022  2023  2024  2025  all
+sector                                                                     
+Communication Services    76    74    74    85    66    67    75    74   74
+Consumer Discretionary    77    71    67    80    69    82    72    71   74
+Consumer Staples          73    74    80    79    73    77    77    77   76
+Information Technology    89    84    90    93    83    87    85    88   87
+   Overall beat rate 79.0% on 5380 quarters; exact ties (counted as not a beat): 5.4%
+
+3. REPORT TIMING (in-universe quarters)
+   BMO 2737 (51%), AMC 2619 (49%), DMH 28 (1%), UNKNOWN 2 (0%)
+
+4. ALPHA VANTAGE CROSS-CHECK  (stratified sample of 50)
+   compared 18 companies so far; 28 still to do (rerun on later days - saved results are reused); 4 skipped (no yfinance data)
+   555 quarters compared; 50 with an issue:
+   estimate differs: 20, actual differs estimate differs: 14, report date differs: 11, actual differs: 5
+   details in data/processed/av_crosscheck.csv
+
+5. SEC 8-K DATE CHECK  (yfinance report date within 1 day of an earnings 8-K)
+   4439 of 4501 report dates matched (99%)
+   Companies below 90%: DIS, PSKY, BG, Q, SMCI (see data/processed/sec_date_check.csv)
