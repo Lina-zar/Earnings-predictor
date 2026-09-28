@@ -274,14 +274,18 @@ def main():
             sp = pd.read_csv(sfiles[-1])
             sp["date"] = pd.to_datetime(sp["date"], utc=True).dt.tz_localize(None).dt.normalize()
             sp = sp[sp["ratio"] > 0]
-            later = pd.Series([sp.loc[sp["date"] > d, "ratio"].prod() for d in p["date"]], index=p.index)
+            sp = sp.sort_values("date")
+            # product of all split ratios strictly after each date (vectorised)
+            tail = np.append(np.cumprod(sp["ratio"].values[::-1])[::-1], 1.0)
+            idx = np.searchsorted(sp["date"].values, p["date"].values, side="right")
+            later = pd.Series(tail[idx], index=p.index)
         else:
             split = p.get("Stock Splits", pd.Series(0, index=p.index)).fillna(0)
             split = split.where(split > 0, 1.0)
             later = split[::-1].cumprod()[::-1].shift(-1).fillna(1.0)
-        raw_close = p["Close"] * later
+        raw_close = pd.to_numeric(p["Close"], errors="coerce") * later.astype(float)
         k = np.searchsorted(p["date"].values, grp["report_date"].values, side="left") - 1
-        vals = np.where(k >= 0, raw_close.values[np.clip(k, 0, None)], np.nan)
+        vals = np.where(k >= 0, raw_close.values[np.clip(k, 0, None)], np.nan).astype(float)
         feats.loc[grp.index, "close_before"] = vals
 
     all_q, parts, missing = [], [], []

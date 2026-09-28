@@ -19,3 +19,4 @@ _archive/
 
 # Dashboard data file (built from downloaded data; recreate with export_powerbi.py)
 powerbi/*.xlsx
+data/*.tar

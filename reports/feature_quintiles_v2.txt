@@ -2,7 +2,7 @@ New features - not-beat rate by quintile (overall 21.0%)
 
 feature                           Q1 (low)      Q2      Q3      Q4 Q5 (high)  spread  coverage
 op_margin_chg_yoy                  27.6%   24.7%   19.6%   17.6%   15.6%   -12.0%      84%
-log_market_cap                     26.3%   20.8%   21.8%   19.9%   15.1%   -11.2%      94%
+log_market_cap                     27.2%   20.0%   21.9%   19.7%   15.2%   -12.0%      94%
 inventory_minus_sales_growth       15.7%   18.2%   22.0%   22.0%   25.6%   +10.0%      72%
 op_margin                          27.0%   23.7%   17.4%   18.4%   17.3%    -9.7%      90%
 reporting_lag_days                 17.2%   19.3%   20.1%   21.1%   26.3%    +9.0%      99%
