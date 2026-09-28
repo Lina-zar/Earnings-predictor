@@ -18,6 +18,14 @@ Walk-forward test, 2019–2025 (each year predicted using only earlier years), 4
 
 Logistic regression beats the sector base rate in **all 7** test years. The quarters it flags as riskiest fail to beat more than twice as often as average.
 
+### What the model analysis shows (Part 3)
+
+- **Track record does most of the work.** Removing the company's own beat history cuts skill from +7.5% to +3.5%; market signals and the earnings season so far add about 1.5 points between them. SEC fundamentals add nothing *once track record is known*, even though several are individually predictive — history already contains that information.
+- **It is robust.** Skill stays at +7–9% if ties count as beats, without fundamentals, in 2021–2025 only, and in the 2020 COVID year. A smaller 17-feature model chosen on 2019–21 does no better on 2022–25 (+8.7% vs +8.9%): pruning with hindsight had suggested otherwise, a reminder to select features only on past data.
+- **Predicting misses is not the same as predicting returns.** The model's riskiest 10% of quarters barely underperform the safest 10% after the report (−0.49% vs −0.14%, not significant). The reason: **the market already prices in the risk.** When a company the model rates risky still beats, its stock rises **+1.13%** vs **+0.07%** for the safest third (t = 3.5); when it merely matches the estimate, it falls −1.0% vs −4.5%.
+
+![The market already prices in the risk](reports/figures/part3_reaction_by_risk.png)
+![What drives the model](reports/figures/part3_feature_groups.png)
 ![Model skill by year](reports/figures/model_v1_skill_by_year.png)
 ![Risk deciles](reports/figures/model_v1_risk_deciles.png)
 ![Signal by feature](reports/figures/signal_quintiles.png)
@@ -43,6 +51,7 @@ Logistic regression beats the sector base rate in **all 7** test years. The quar
 | 5 | `build_features.py` | Features from track record, estimates, prices and earnings season, with leakage tests |
 | 6 | `pull_sec.py`, `build_fundamentals.py` | SEC financial statements (first-filed values only) → fundamental features |
 | 7 | `train_model_v1.py` | Walk-forward baselines, logistic regression and gradient-boosted trees; results and charts in `reports/` |
+| 8 | `build_reactions.py`, `part3_analysis.py` | Stock reactions, feature-group analysis, segments, robustness checks and the market test |
 
 Every feature uses only information available before the report date; automated leakage tests check this on each run.
 
@@ -60,6 +69,8 @@ python build_features.py
 python pull_sec.py
 python build_fundamentals.py
 python train_model_v1.py
+python build_reactions.py
+python part3_analysis.py
 ```
 
 Downloaded data is not stored in this repository; the scripts recreate it.
@@ -68,5 +79,5 @@ Downloaded data is not stored in this repository; the scripts recreate it.
 
 - [x] Part 1 — scope, data sources, database, exploration
 - [x] Part 2 — feature engineering: 39 leakage-tested features ([FEATURES.md](FEATURES.md))
-- [ ] Part 3 — model and walk-forward evaluation (first version done; tuning and error analysis next)
+- [x] Part 3 — walk-forward model, feature analysis, robustness and market test ([results](reports/part3_results.txt))
 - [ ] Dashboard and final report

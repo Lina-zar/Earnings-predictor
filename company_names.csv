@@ -1,0 +1,232 @@
+company_key,company_name
+APP,AppLovin
+ATVI,Activision Blizzard
+CHTR,Charter Communications
+CMCSA,Comcast
+DIS,Walt Disney Company (The)
+DISH,Dish Network
+EA,Electronic Arts
+FOXA,Fox Corporation (Class A)
+GOOGL,Alphabet Inc. (Class A)
+IPG,Interpublic Group
+LUMN,Lumen Technologies
+LYV,Live Nation Entertainment
+META,Meta Platforms
+MTCH,Match Group
+NFLX,Netflix
+NWSA,News Corp (Class A)
+OMC,Omnicom Group
+PSKY,Paramount Skydance Corporation
+SNI,Scripps Networks Interactive
+T,AT&T
+TKO,TKO Group Holdings
+TMUS,T-Mobile US
+TRIP,TripAdvisor
+TTD,Trade Desk (The)
+TTWO,Take-Two Interactive
+TWTR,Twitter
+TWX,Time Warner
+VIAB,Viacom
+VZ,Verizon
+WBD,Warner Bros. Discovery
+AAP,Advance Auto Parts
+ABNB,Airbnb
+AMZN,Amazon
+APTV,Aptiv
+AZO,AutoZone
+BBWI,Bath & Body Works
+BBY,Best Buy
+BKNG,Booking Holdings
+BWA,BorgWarner
+CCL,Carnival Corporation
+CMG,Chipotle Mexican Grill
+CPRI,Capri Holdings
+CVNA,Carvana
+CZR,Caesars Entertainment
+DASH,DoorDash
+DECK,Deckers Brands
+DHI,D. R. Horton
+DPZ,Domino's
+DRI,Darden Restaurants
+EBAY,eBay Inc.
+ETSY,Etsy
+EXPE,Expedia Group
+F,Ford Motor Company
+FL,Foot Locker
+GM,General Motors
+GPC,Genuine Parts Company
+GPS,Gap
+GRMN,Garmin
+GT,Goodyear
+HAS,Hasbro
+HBI,Hanesbrands
+HD,Home Depot (The)
+HLT,Hilton Worldwide
+HOG,Harley-Davidson
+HRB,H&R Block
+JWN,Nordstrom
+KMX,CarMax
+KSS,Kohl's
+LEG,Leggett & Platt
+LEN,Lennar
+LKQ,LKQ Corp
+LOW,Lowe's
+LULU,Lululemon Athletica
+LVS,Las Vegas Sands
+M,Macy's
+MAR,Marriott International
+MAT,Mattel
+MCD,McDonald's
+MGM,MGM Resorts
+MHK,Mohawk Industries
+NCLH,Norwegian Cruise Line Holdings
+NKE,"Nike, Inc."
+NVR,"NVR, Inc."
+NWL,Newell Brands
+ORLY,O'Reilly Automotive
+PENN,Penn Entertainment
+PHM,PulteGroup
+POOL,Pool Corp
+PVH,PVH Corp
+RCL,Royal Caribbean Group
+RL,Ralph Lauren Corporation
+ROST,Ross Stores
+SBUX,Starbucks
+SIG,Signet Jewelers
+TIF,Tiffany
+TJX,TJX Companies
+TPR,"Tapestry, Inc."
+TSCO,Tractor Supply
+TSLA,"Tesla, Inc."
+UAA,Under Armour (A)
+ULTA,Ulta Beauty
+VFC,VF Corp
+WHR,Whirlpool
+WSM,"Williams-Sonoma, Inc."
+WYND,Wyndham Worldwide
+WYNN,Wynn Resorts
+YUM,Yum! Brands
+ADM,Archer Daniels Midland
+BF.B,Brown–Forman
+BG,Bunge Global
+CAG,Conagra
+CHD,Church & Dwight
+CL,Colgate-Palmolive
+CLX,Clorox
+COST,Costco
+COTY,Coty
+CPB,Campbell's
+DG,Dollar General
+DLTR,Dollar Tree
+EL,Estée Lauder Companies (The)
+GIS,General Mills
+HRL,Hormel Foods
+HSY,Hershey Company (The)
+K,Kellanova
+KDP,Keurig Dr Pepper
+KHC,Kraft Heinz
+KMB,Kimberly-Clark
+KO,Coca-Cola Company (The)
+KR,Kroger
+KVUE,Kenvue
+LW,Lamb Weston
+MDLZ,Mondelez International
+MKC,McCormick & Company
+MNST,Monster Beverage
+MO,Altria
+PEP,PepsiCo
+PG,Procter & Gamble
+PM,Philip Morris International
+SJM,J.M. Smucker Company (The)
+STZ,Constellation Brands
+SYY,Sysco
+TAP,Molson Coors Beverage Company
+TGT,Target Corporation
+TSN,Tyson Foods
+WBA,Walgreens Boots Alliance
+WMT,Walmart
+AAPL,Apple Inc.
+ACN,Accenture
+ADBE,Adobe Inc.
+ADI,Analog Devices
+ADSK,Autodesk
+AKAM,Akamai Technologies
+AMAT,Applied Materials
+AMD,Advanced Micro Devices
+ANET,Arista Networks
+ANSS,Ansys
+APH,Amphenol
+AVGO,Broadcom
+CA,CA Inc
+CDNS,Cadence Design Systems
+CDW,CDW Corporation
+CRM,Salesforce
+CRWD,CrowdStrike
+CSCO,Cisco
+CSRA,CSRA
+CTSH,Cognizant
+CTXS,Citrix
+DDOG,Datadog
+DELL,Dell Technologies
+DXC,DXC Technology
+ENPH,Enphase Energy
+EPAM,EPAM Systems
+FFIV,"F5, Inc."
+FICO,Fair Isaac
+FLIR,FLIR Systems
+FSLR,First Solar
+FTNT,Fortinet
+GDDY,GoDaddy
+GEN,Gen Digital
+GLW,Corning Inc.
+HPE,Hewlett Packard Enterprise
+HPQ,HP Inc.
+IBM,IBM
+INTC,Intel
+INTU,Intuit
+IPGP,IPG Photonics
+IT,Gartner
+JBL,Jabil
+JNPR,Juniper Networks
+KEYS,Keysight Technologies
+KLAC,KLA Corporation
+LRCX,Lam Research
+MCHP,Microchip Technology
+MPWR,Monolithic Power Systems
+MSFT,Microsoft
+MSI,Motorola Solutions
+MU,Micron Technology
+MXIM,Maxim Integrated
+NOW,ServiceNow
+NTAP,NetApp
+NVDA,Nvidia
+NXPI,NXP Semiconductors
+ON,ON Semiconductor
+ORCL,Oracle Corporation
+PANW,Palo Alto Networks
+PLTR,Palantir Technologies
+PTC,PTC Inc.
+Q,Qnity Electronics
+QCOM,Qualcomm
+QRVO,Qorvo
+RHT,Red Hat
+ROP,Roper Technologies
+SEDG,SolarEdge
+SMCI,Supermicro
+SNDK,Sandisk
+SNPS,Synopsys
+STX,Seagate Technology
+SWKS,Skyworks Solutions
+TDY,Teledyne Technologies
+TEL,TE Connectivity
+TER,Teradyne
+TRMB,Trimble Inc.
+TXN,Texas Instruments
+TYL,Tyler Technologies
+VNT,Vontier
+VRSN,Verisign
+WDAY,"Workday, Inc."
+WDC,Western Digital
+XLNX,Xilinx
+XRX,Xerox
+ZBRA,Zebra Technologies

@@ -16,3 +16,6 @@ data/processed/
 
 # Files from a parallel session, kept locally only
 _archive/
+
+# Dashboard data file (built from downloaded data; recreate with export_powerbi.py)
+powerbi/*.xlsx
