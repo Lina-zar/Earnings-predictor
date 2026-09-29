@@ -30,6 +30,19 @@ Logistic regression beats the sector base rate in **all 7** test years. The quar
 ![Risk deciles](reports/figures/model_v1_risk_deciles.png)
 ![Signal by feature](reports/figures/signal_quintiles.png)
 
+## Dashboard (Power BI)
+
+Three pages built on a small star schema (one fact table of 5,380 reports, company and date dimensions, plus model summary tables) exported by `export_powerbi.py`.
+
+**Overview** — beat rate, market reaction by outcome, beat rate by sector over time, with sector and year filters.
+![Dashboard overview](reports/figures/dashboard_overview.png)
+
+**Company explorer** — pick any company to see every report: estimate, actual, surprise, stock reaction and the model's risk score.
+![Company explorer](reports/figures/dashboard_company.png)
+
+**Model** — walk-forward skill by year and predicted vs actual not-beat rate by risk decile.
+![Model page](reports/figures/dashboard_model.png)
+
 ## Key findings so far
 
 | | |
@@ -52,6 +65,7 @@ Logistic regression beats the sector base rate in **all 7** test years. The quar
 | 6 | `pull_sec.py`, `build_fundamentals.py` | SEC financial statements (first-filed values only) → fundamental features |
 | 7 | `train_model_v1.py` | Walk-forward baselines, logistic regression and gradient-boosted trees; results and charts in `reports/` |
 | 8 | `build_reactions.py`, `part3_analysis.py` | Stock reactions, feature-group analysis, segments, robustness checks and the market test |
+| 9 | `export_powerbi.py` | Star-schema Excel file for the Power BI dashboard (theme and background in `powerbi/`) |
 
 Every feature uses only information available before the report date; automated leakage tests check this on each run.
 
@@ -71,6 +85,7 @@ python build_fundamentals.py
 python train_model_v1.py
 python build_reactions.py
 python part3_analysis.py
+python export_powerbi.py     # needs: pip install openpyxl
 ```
 
 Downloaded data is not stored in this repository; the scripts recreate it.
@@ -80,4 +95,5 @@ Downloaded data is not stored in this repository; the scripts recreate it.
 - [x] Part 1 — scope, data sources, database, exploration
 - [x] Part 2 — feature engineering: 39 leakage-tested features ([FEATURES.md](FEATURES.md))
 - [x] Part 3 — walk-forward model, feature analysis, robustness and market test ([results](reports/part3_results.txt))
-- [ ] Dashboard and final report
+- [x] Power BI dashboard: overview, company explorer, model
+- [ ] Final report

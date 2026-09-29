@@ -1,0 +1,105 @@
+{
+  "name": "Sunset Earnings",
+  "dataColors": [
+    "#F9A030",
+    "#EF443A",
+    "#D21B61",
+    "#892577"
+  ],
+  "visualStyles": {
+    "card": {
+      "*": {
+        "background": [
+          {
+            "show": false
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 28,
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": {
+              "solid": {
+                "color": "#FFFFFF"
+              }
+            },
+            "show": true,
+            "fontSize": 12,
+            "fontFamily": "Segoe UI"
+          }
+        ],
+        "title": [
+          {
+            "show": false
+          }
+        ]
+      }
+    },
+    "*": {
+      "*": {
+        "title": [
+          {
+            "alignment": "center",
+            "show": true,
+            "fontSize": 14,
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 1,
+                      "Percent": 0.4
+                    }
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "background": [
+          {
+            "show": true,
+            "color": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "ThemeDataColor": {
+                      "ColorId": 0,
+                      "Percent": 0
+                    }
+                  }
+                }
+              }
+            },
+            "transparency": 70
+          }
+        ],
+        "categoryAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ],
+        "valueAxis": [
+          {
+            "showAxisTitle": false
+          }
+        ]
+      }
+    }
+  },
+  "good": "#892577",
+  "bad": "#EF443A",
+  "neutral": "#F9A030",
+  "maximum": "#892577",
+  "minimum": "#EF443A",
+  "center": "#F9A030"
+}
