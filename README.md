@@ -4,7 +4,7 @@
 
 Large US companies beat consensus 79% of the time, so a beat is the default. This project looks at the quarters that don't beat, where the market reacts hardest: in 2018–2025, stocks fell **3.2%** relative to the S&P 500 in the two days after a miss, against **+0.6%** after a beat.
 
-The full project scope, hypotheses, success criteria and limitations are in **[CHARTER.md](CHARTER.md)**; every model input is defined in **[FEATURES.md](FEATURES.md)**.
+**Read the full write-up in [REPORT.md](REPORT.md)**: results, hypotheses tested, robustness, the market test, limitations and manual spot checks. The original scope is in [CHARTER.md](CHARTER.md); every model input is defined in [FEATURES.md](FEATURES.md).
 
 ## First model result
 
@@ -96,4 +96,4 @@ Downloaded data is not stored in this repository; the scripts recreate it.
 - [x] Part 2 — feature engineering: 39 leakage-tested features ([FEATURES.md](FEATURES.md))
 - [x] Part 3 — walk-forward model, feature analysis, robustness and market test ([results](reports/part3_results.txt))
 - [x] Power BI dashboard: overview, company explorer, model
-- [ ] Final report
+- [x] Final report ([REPORT.md](REPORT.md))
